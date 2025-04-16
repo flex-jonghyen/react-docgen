@@ -22,6 +22,7 @@
   },
   "main": "dist/main.js",
   "typings": "dist/main.d.ts",
+  "exports": "./dist/main.js",
   "scripts": {
     "build": "rimraf dist/ && tsc",
     "test": "vitest run"
